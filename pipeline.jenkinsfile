@@ -2,7 +2,7 @@
 
 node {
   stage('git-clone') {
-    cloning ('https://github.com/Gitesh-Jawale/DPipeline.git','main')
+    cloning ('https://github.com/Gitesh-Jawale/jenkins.git','main')
   }
   stage('build') {
     build ()
