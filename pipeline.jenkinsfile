@@ -1,0 +1,8 @@
+node {
+  stage('git-clone') {
+    cloning ()
+  }
+  stage('build') {
+    build ()
+  }
+}
