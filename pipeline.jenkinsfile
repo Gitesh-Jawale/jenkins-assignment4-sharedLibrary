@@ -1,6 +1,7 @@
 @Library('MySharedLibrary') _
+
 node {
   stage('git-clone') {
-    cloning ('https://github.com/Gitesh-Jawale/jenkins.git','main')
+    cloning('https://github.com/Gitesh-Jawale/jenkins.git', 'main')
   }
 }
