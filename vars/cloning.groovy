@@ -1,5 +1,5 @@
-def call (String name) {
+def call (String url, String branch) {
     echo "hi sagar"
-    echo "Hello ${name}"
+    git branch: '${branch}' , url: '${url}'
     
 }
