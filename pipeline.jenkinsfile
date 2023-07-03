@@ -2,6 +2,6 @@
 
 node {
   stage('git-clone') {
-    cloning('Gitesh')
+    cloning("Gitesh")
   }
 }
