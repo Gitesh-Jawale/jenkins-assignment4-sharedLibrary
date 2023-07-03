@@ -2,6 +2,6 @@
 
 node {
   stage('git-clone') {
-    cloning('https://github.com/Gitesh-Jawale/jenkins.git', 'main')
+    cloning('Gitesh')
   }
 }
