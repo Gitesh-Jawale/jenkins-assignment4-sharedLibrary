@@ -4,4 +4,7 @@ node {
   stage('git-clone') {
     cloning ('https://github.com/Gitesh-Jawale/DPipeline.git','main')
   }
+  stage('build') {
+    build ()
+  }
 }
