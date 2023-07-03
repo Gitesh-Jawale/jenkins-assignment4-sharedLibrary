@@ -1,8 +1,5 @@
 node {
   stage('git-clone') {
-    cloning ()
-  }
-  stage('build') {
-    build ()
+    cloning ('https://github.com/Gitesh-Jawale/jenkins.git','main')
   }
 }
