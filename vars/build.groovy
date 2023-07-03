@@ -1,4 +1,5 @@
 def call () {
   echo "hi sagr"
-  cat Hello.java
+  sh 'javac Hello.java'
+  sh 'java Hello'
 }
