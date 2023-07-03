@@ -1,5 +1,5 @@
-def call(String repositoryUrl, String branch = 'master') {
-    echo $repositoryUrl
-    echo $branch
-    git branch: '$branch', url: '$repositoryUrl'
+def call (String name) {
+    echo "hi sagar"
+    echo $name
+    
 }
